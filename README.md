@@ -11,7 +11,8 @@ Things required
   ![image](https://user-images.githubusercontent.com/2664857/149229582-18780783-6d47-4d12-89ab-1898da33e1c7.png)
 4.	For Pi 4 B (connect one USB C cable from pi to PS4)
 5.	Power up the PS4
-6.	One Time Setup
+6.	If using a Pi Zero you will see two green led flashes and then nothing. Please wait at least 40 seconds before checking for the PiZero network.
+7.	One Time Setup
     i.PS4 Network Connection -> Wifi -> Manual setup
     ii.	In PS4 find the Wifi Network called PiZero and connect to it using password as password
     iii. For DNS set the primary DNS as 7.7.7.1
