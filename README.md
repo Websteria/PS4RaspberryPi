@@ -41,7 +41,7 @@ Things required
 2.	Once this is done you should have the auto login option enabled to make it work (setting -> Login Setting -> Log into PS4 Automatically (checked))
 3.	Reboot once the PS4 is Reboots , it will automatically, selects all menu options till JB page, it will also click ok on webkit popup, 
 4.	The auto sequence will stop at this point, user have to click the USB disappear button manually to completely the JB sequence
-5.	Note: have already automated the entire sequence. since the JB success rate was dropping in the full sequence , we are stopping the auto sequence at webkit popup
+5.	Note: have already automated the entire sequence. since the JB success rate was dropping in the full sequence , we are stopping the auto sequence at page load
 6.	This can be disabled in Raspberry Pi page so in, further boot it doesn’t attempt the auto Sequence
 
 **Free Storage to USB**
@@ -55,7 +55,8 @@ a.	You can plug SD card into PC and add Files
 b.	Mount it PS4 install it
 c.	PS4 data can be save into it
 d.	Make it as an extended storage
-Gold Hen
+
+**Gold Hen**
 1.	The Goldhen payload come from a file call payload.js, this payload JS file can be updated via
 2.	Place a new GoldHen bin under “Sdcard:/usr/html/Bin/Goldhen/”
 3.	PS4 -> Guide / Help Menu -> GoldHen Update (button)
